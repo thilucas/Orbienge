@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Orbienge Engenharia e Consultoria Ambiental</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <!-- NAVBAR -->
+
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top pb-3 pt-3"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img class="logo" src="images/Orbienge-logo3.svg" alt="Logo Orbienge"
+        /></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#servicos" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a href="#equipe" class="nav-link">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a href="#clientes" class="nav-link">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contato" class="nav-link">Contato</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+
+    <section id="Home">
+      <div id="bg"></div>
+      <div class="home">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item container-fluid">
+              <div class="container">
+                <div class="row carousel-size justify-content-end">
+                  <div class="col-sm-5 align-self-center">
+                    <h1>Consultoria Ambiental</h1>
+                    <div class="bar"></div>
+                    <h3>
+                      Licenciamentos, pericias, estudos de impacto e viabilidade
+                    </h3>
+                  </div>
+                  <div class="col-sm-7 align-self-center ">
+                    <img class="pl-5" src="images/Nature.svg" alt="Nature-landscape">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row carousel-size justify-content-end">
+                      <div class="col-sm-5 align-self-center">
+                        <h1>Engenharia Civil e Arquitetura</h1>
+                        <div class="bar"></div>
+                        <h3>
+                          Acompanhamento de obras e Arquitetura especializada
+                        </h3>
+                      </div>
+                      <div class="col-sm-7 align-self-center">
+                        <img class="pl-5" src="images/Construction.svg" alt="Construção">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                        <div class="carousel-item active container-fluid">
+                <div class="container">
+                    <div class="row carousel-size">
+                      <div class="col-sm-5 align-self-center">
+                        <h1>Estudo de Impacto de Vizinhança - EIV</h1>
+                        <div class="bar"></div>
+                        <h2>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </h2>
+                      </div>
+                      <div class="col-sm-7 align-self-center">
+                        <img class="pl-5" src="images/EIV.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+<!-- SERVIÇOS -->
+
+    <section class="mb-5" id="servicos">
+      <h1 class="text-center my-5">Serviços</h1>
+      <div class="row justify-content-around my-3 pt-2">
+        <div class="col-sm-4 mb-5">
+          <div class="card bg-white">
+            <div class="card-header bg">
+              <h5 class="text-center">Consultoria Ambiental</h5>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+              <button class="btn btn-custom btn-block btn-danger"><h5>Saiba mais</h5></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="text-center">Engenharia Civil e Arquitetura</h5>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                  </ul>
+                  <button class="btn btn-custom btn-block btn-danger"><h5>Saiba mais</h5></button>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="text-center">Estudo de Impacto de Vizinhança - EIV</h5>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                  </ul>
+                  <button class="btn btn-custom btn-block btn-danger"><h5>Saiba mais</h5></button>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPE -->
+
+    <section class="mb-5 py-2 pb-5" id="equipe">
+        <!-- <div id="bg2" class="mt-5"></div> -->
+      <h1 class="my-3 text-center py-4">Equipe</h1>
+      <div class="row mb-5">
+        <div class="col-sm-6 align-self-center">
+          <img class="mx-auto img-fluid avatar rounded-circle" src="images/Equipe/Celia.jpg" alt="Avatar-celia">
+        </div>
+        <div class="col-sm-6 pr-5 align-self-center container-fluid">
+            <h2>Célia Miara</h2>
+            <p>Célia Miara é fundadora da Orbenge e possuí mais de 10 anos de experiência em Licenciamentos ambientais, projetos de engenharia civil e segurança do trabalho. É formada em <strong>Engenharia Civil</strong> com especialização em <strong>Engenharia de Segurança do Trabalho</strong>, <strong>Gestão Ambiental</strong> e mestrado em <strong>Engenharia de Materiais</strong>.</p>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-md-3 col-sm-6 align-self-center">
+            <img class="mx-auto text-center img-fluid avatar2 rounded-circle" src="images/Equipe/Rodrigo.jpg" alt="Foto-Rodrigo">
+          </div>
+          <div class="col-md-3 col-sm-6 pr-5 align-self-center container">
+              <h2>Rodrigo</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa atque est eum ipsam quisquam.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 align-self-center mx-auto container">
+                <img class="mx-auto img-fluid avatar2 rounded-circle" src="images/Equipe/Diones.jpg" alt="Foto-Diones">
+              </div>
+              <div class="col-md-3 col-sm-6 pr-5 align-self-center">
+                  <h2>Diones Garcia</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa atque est eum ipsam quisquam.</p>
+                </div>
+        </div>
+        
+    </section>
+
+    <!-- Clientes -->
+    <section id="clientes" class="pt-3 pb-3">
+      <h1 class="text-center">Clientes</h1>
+      <div class="row pt-5">
+        <div class="col-sm-6 text-center pl-5 bar2 container"><h3>Licenciamento Ambiental</h3>
+          <ul class="pt-3">
+              <li class="pb-3">Omya do Brasil <img class="logos pl-3" src="images/clientes/omya.png" alt="Omya-logo"></li>
+              
+                <li>Princesa dos Campos <img class="logos pl-3" src="images/clientes/Princesa.png" alt="Princesa-logo"></li>
+            </ul>
+        </div>
+           <div class="col-sm-6 text-center pr-5 container"><h3>Estudo de Impacto de Vizinhança EIV</h3>
+            <ul class="pt-3">
+                <li class="pb-3">Unimed<img class="logos pl-3" src="images/clientes/Unimed.png" alt="Unimed-logo"></li>
+                <li class="pb-3">Construtora RMM<img class="logos pl-3" src="images/clientes/rmm.jpg" alt="RMM-logo"></li>
+                <li class="pb-3">Colégio Alpha Plus<img class="logos pl-3" src="images/clientes/alpha-plus.jpg" alt="Alpha-logo"></li>
+                <li class="pb-3">ACIPG<img class="logos pl-3" src="images/clientes/acipg.jpg" alt="ACIPG-logo"></li>
+                <li class="pb-3">Rede de postos Zapa<img class="logos pl-3" src="images/clientes/zapa.jpg" alt="Zapa-logo"></li>
+              </ul>
+            </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="mt-5 pb-3">
+        <h1 class="text-center py-5">Contato</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="text-center pb-3">Mande sua mensagem:</h3>
+               <form>
+            <div class="form-group container">
+              <label for="Nome">Nome</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group container">
+              <label for="Telefone">Telefone</label>
+                <input type="text" class="form-control" placeholder="Telefone">
+              </div>
+            <div class="form-group container">
+              <label for="email">Endereço de e-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group container">
+                <label for="exampleFormControlTextarea1">Sua mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="mx-auto d-flex btn btn-outline-light">Enviar</button>
+              </form>
+              </div>
+              <div class="col-sm-6">
+                <h3 class="text-center pb-3"> Venha nos conhecer</h3>
+                <div class="container-fluid align-self-center" id="map">
+
+                </div>
+                <p class="pt-2 px-5 text-center">Rua Dr. Penteado de Almeida, nº 62 - Centro - CEP: 84010-240 - Ponta Grossa - PR - Tel.: (42) 3027-1135</p>
+              </div>
+            </div>
+
+      </section>
+
+      <!-- FOOTER -->
+    <footer id="main-footer" class="bg-light">
+        <div class="container pt-3">
+          <div class="row">
+            <div class="col text-center">
+              <h3>Orbienge</h3>
+              <p>Copyright &copy; <span id="year"></span> Design by: Thiago Fernandes</p>
+                          </div>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+          // Initialize and add the map
+          function initMap() {
+            // The location of Uluru
+            var uluru = {lat: -25.08572, lng: -50.159159};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 17, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+          }
+              </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgCudEsh2BOjs483uONUnhssreklfeBKc&callback=initMap">
+              </script>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+
+      //init scroll spy
+      $('body').scrollspy({ target: '#main-nav' });
+
+      //Smooth Scrolling
+      $('#main-nav a').on('click', function(e) {
+        // check for a has value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          e.preventDefault();
+
+          //Store Hash in a variable
+          const hash = this.hash;
+
+          // animate smooth scroll
+
+          $('html,body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            900,
+            function() {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
+  </body>
+</html>

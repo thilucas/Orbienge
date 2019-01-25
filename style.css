@@ -1,0 +1,138 @@
+body {
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #72ffab;
+          box-shadow: 2px 2px 5px #72ffab;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.navbar .logo {
+  height: 50px;
+}
+
+#home #bg {
+  position: absolute;
+  background-color: #72ffab;
+  -webkit-clip-path: polygon(69% 4%, 100% 0, 100% 60%, 100% 100%, 0 100%, 25% 89%, 40% 63%);
+          clip-path: polygon(69% 4%, 100% 0, 100% 60%, 100% 100%, 0 100%, 25% 89%, 40% 63%);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 500px;
+}
+
+#home .carousel-size {
+  height: 500px;
+}
+
+#home .carousel-control-prev-icon {
+  background-color: #ff4365;
+  margin-right: 100px;
+}
+
+#home .carousel-control-next-icon {
+  background-color: #ff4365;
+  margin-left: 100px;
+}
+
+#home img {
+  display: block;
+  margin-left: auto;
+}
+
+#home .bar {
+  display: block;
+  height: 8px;
+  width: 700px;
+  background-color: #72ffab;
+}
+
+#servicos {
+  padding: 0 100px;
+}
+
+#equipe {
+  background-color: #d6f9dd;
+}
+
+#equipe .avatar {
+  width: 300px;
+}
+
+#equipe .avatar2 {
+  width: 200px;
+}
+
+#clientes .bar2 {
+  border-right: #ff4365 solid 5px;
+}
+
+#clientes ul {
+  text-align: left;
+}
+
+#clientes .logos {
+  height: 50px;
+  display: inline;
+  padding-left: 5px;
+}
+
+#contato {
+  background-color: #59ac7a;
+  color: #fff;
+}
+
+#map {
+  height: 400px;
+  width: 90%;
+  background-color: grey;
+  padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    opacity: 1;
+  }
+  .navbar .nav-item {
+    font-size: 1rem;
+    padding-right: 1.4rem;
+  }
+  .navbar .logo {
+    height: 35px;
+  }
+  #home {
+    text-align: center;
+  }
+  #home .bar {
+    display: none;
+  }
+  #home .bar #bg {
+    min-height: 700px;
+  }
+  #home .bar .carousel-size {
+    height: 700px;
+  }
+  #home h1 {
+    padding-bottom: 15px;
+    font-size: 2.2rem;
+  }
+  #home h2 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
